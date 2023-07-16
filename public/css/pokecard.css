@@ -1,0 +1,49 @@
+#pokemon {
+    margin-top: 2%;
+    margin: 1rem;
+    margin-left: 1.6rem;
+  }
+  
+#image {
+  border: solid 3px black;
+  border-radius: 0px 0px 0px 20px;
+  width: 90%;
+  margin-left: 1.2em;
+  top: 20px;
+  left: auto;
+  background-color: #f0e7e7;
+}
+
+#border-img {
+  border: solid 3px black;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 34%;
+  transition: all 0.3s ease-in-out;
+}
+
+#desc {
+  position: absolute;
+  margin-left: -30%;
+}
+
+#tableStats tr {
+  background-color: rgb(61, 194, 61);
+  font-size: xx-small;
+  border: 1px solid black;
+}
+
+.ampliado {
+  transform: scale(1.2);
+}
+
+.reduzido {
+  transform: scale(0.8);
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
